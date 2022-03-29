@@ -1,0 +1,277 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;
+
+700&display=swap);* {
+  padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+}
+
+.ul-header li {
+  display: inline-block;
+  margin: 0px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header {
+  height: 150px;
+}
+
+.container-header {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container-header::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.logo-header {
+  float: left;
+  width: 10%;
+}
+
+.menu-header {
+  float: right;
+  width: 90%;
+  height: 100%;
+  text-align: center;
+}
+
+.ul-header li.active,
+.ul-header li:hover {
+  color: blue;
+  border-bottom: 3px solid blue;
+}
+
+.logo-header img {
+  width: 100px;
+  height: 100px;
+}
+
+.jumbotron {
+  height: 500px;
+  width: 100%;
+}
+
+.jumbotron img {
+  -o-object-position: top;
+     object-position: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.button-jumbotron {
+  font-size: 20px;
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 32px;
+  position: absolute;
+  left: 15%;
+  top: 65%;
+  border: 1px solid #303030;
+}
+
+.footer-first {
+  height: 150px;
+  z-index: 998;
+  background-color: #0282f9;
+  color: white;
+}
+
+.container-footer-first {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-footer-first {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.li-footer-first {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.img-footer-first {
+  width: 50px;
+  height: 60px;
+}
+
+.li-footer-first span {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 15px;
+}
+
+.footer-second {
+  height: 360px;
+  background-image: url("/img/footer-bg.jpg");
+  margin-top: 0px !important;
+}
+
+.container-footer-second {
+  width: 70%;
+  padding: 0px 0px;
+  position: relative;
+}
+
+.img-footer-second {
+  position: absolute;
+  left: 70%;
+  top: -20%;
+}
+
+.ul-footer-second {
+  display: inline-block;
+}
+
+.ul-footer-second li {
+  list-style: none;
+  color: #555151;
+  font-weight: bold;
+}
+
+.ul-footer-second li:first-child {
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: WHITE;
+  font-weight: bold;
+}
+
+.margin-right {
+  margin-right: 20px;
+  display: inline-block;
+  list-style: none;
+  color: #555151;
+  font-weight: bold;
+}
+
+.margin-right li:first-child {
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: WHITE;
+  font-weight: bold;
+}
+
+.style-shop {
+  margin-bottom: 15px;
+  font-size: 30px;
+  color: white !important;
+  font-weight: bold;
+}
+
+.footer-third {
+  background-color: #302d2d;
+  height: 160px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1000;
+}
+
+.container-footer-third {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.container-footer-third::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer-third-left {
+  width: 15%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.footer-third-right {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+.button-footer {
+  padding: 16px 32px;
+  color: white;
+  border: 1px solid #0282f9;
+  background-color: #303030;
+  font-weight: bold;
+}
+
+.ul-footer-third li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 30px;
+}
+
+.ul-footer-third {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.ul-footer-third span {
+  color: #0282f9;
+}
+
+main {
+  background-color: #302d2d;
+  color: white;
+  height: 150px;
+  height: 900px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-img {
+  min-height: 350px;
+  margin: 10px 15px;
+  width: 13%;
+}
+
+.box-img img {
+  width: 100%;
+}
+
+.button-main {
+  font-size: 20px;
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 32px;
+  border: 1px solid #303030;
+}
+
