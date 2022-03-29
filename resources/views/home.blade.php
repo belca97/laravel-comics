@@ -9,14 +9,15 @@
 <body>
 
     @include('partials.header')
+    @include('partials.jumbotron')
 
     <main>
 
     </main>
 
-    @include('partials.footer-first');
-    @include('partials.footer-second');
-    @include('partials.footer-third');
+    @include('partials.footer-first')
+    @include('partials.footer-second')
+    @include('partials.footer-third')
 
 </body>
 

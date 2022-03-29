@@ -1,55 +1,47 @@
-<template>
 
-    <footer>
-      <div class="container">
+
+    <footer class="footer-third">
+      <div class="container-footer-third">
           <div class="footer-third-left">
-              <button>SiGN-UP NOW</button>
+              <button class="button-footer">SiGN-UP NOW</button>
   
           </div>
           <div class="footer-third-right">
-              <ul>
+              <ul class="ul-footer-third">
                   <li>
                       <span>FOLLOW US</span>
                   </li>
-                  <li><img src="../assets/footer-facebook.png" alt=""></li>
-                  <li> <img src="../assets/footer-periscope.png" alt=""></li>
-                  <li><img src="../assets/footer-pinterest.png" alt=""></li>
-                  <li><img src="../assets/footer-twitter.png" alt=""></li>
-                  <li><img src="../assets/footer-youtube.png" alt=""></li>
+                  <li><img src="{{asset('/img/footer-facebook.png')}}" alt=""></li>
+                  <li> <img src="{{asset('/img/footer-periscope.png')}}" alt=""></li>
+                  <li><img src="{{asset('/img/footer-pinterest.png')}}" alt=""></li>
+                  <li><img src="{{asset('/img/footer-twitter.png')}}" alt=""></li>
+                  <li><img src="{{asset('/img/footer-youtube.png')}}" alt=""></li>
               </ul>
   
           </div>
       </div>
     </footer>
-  </template>
+
   
-  <script>
-  export default {
-    name: 'MyFooterThird',
-  }
-  </script>
-  
-  <style scoped lang='scss'>
-  
-      @import "../assets/style/variable.scss";
+
+  <style>
       
   
   
-      footer{
+      .footer-third{
           background-color: rgb(48, 45, 45);
           height: 160px;
-          color: $colorFooterThird;
           font-weight: bold;
           position: relative;
           z-index: 1000;
       }
   
-      .container{
+      .container-footer-third{
           width: 70%;
           height: 100%;
           margin: 0 auto;
       }
-      .container::after{
+      .container-footer-third::after{
           content: '';
           display: table;
           clear: both;
@@ -66,26 +58,26 @@
           height: 100%;
           float: right;
       }
-      button{
+      .button-footer{
           padding: 16px 32px;
           color: white;
-          border: 1px solid $colorFooterFirst;
-          background-color: $colorFooterThird;
+          border: 1px solid rgb(2, 130, 249);
+          background-color: rgb(48, 48, 48);
           font-weight: bold;
       }
-      ul li{
+      .ul-footer-third li{
           display: inline-block;
           list-style: none;
           padding: 0px 30px;
       }
-      ul{
+      .ul-footer-third{
           width: 100%;
           height: 100%;
           display: flex;
           align-items: center;
       }
   
-      ul span{
-          color: $colorFooterFirst;
+      .ul-footer-third span{
+          color: rgb(2, 130, 249);
       }
   </style>

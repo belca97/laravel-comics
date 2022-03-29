@@ -3,24 +3,24 @@
   
         <ul class="ul-footer-first">
             <li class="li-footer-first">
-                <img  class="img-footer-first"  src="{{asset('img/dc-logo.png')}}" alt="">
-                <span>wewe</span>
+                <img  class="img-footer-first"  src="{{asset('/img/buy-comics-digital-comics.png')}}" alt="">
+                <span>DIGITAL COMICS</span>
             </li>
            <li class="li-footer-first">
-            <img  class="img-footer-first" src="{{asset('img/dc-logo.png')}}" alt="">
-            <span>wewe</span>
+            <img  class="img-footer-first" src="{{asset('/img/buy-comics-merchandise.png')}}" alt="">
+            <span>DC MERCHANDISE</span>
           </li>
           <li class="li-footer-first">
-            <img  class="img-footer-first" src="{{asset('img/dc-logo.png')}}" alt="">
-            <span>wewe</span>
+            <img  class="img-footer-first" src="{{asset('/img/buy-comics-shop-locator.png')}}" alt="">
+            <span>SHOP LOCATOR</span>
           </li>
           <li class="li-footer-first">
-            <img  class="img-footer-first" src="{{asset('img/dc-logo.png')}}" alt="">
-            <span>wewe</span>
+            <img  class="img-footer-first" src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
+            <span>DC POWER</span>
           </li>
           <li class="li-footer-first">
-            <img  class="img-footer-first" src="{{asset('img/dc-logo.png')}}" alt="">
-            <span>wewe</span>
+            <img  class="img-footer-first" src="{{asset('/img/buy-comics-subscriptions.png')}}" alt="">
+            <span>DC POWER VISA</span>
           </li>
         </ul>
   
@@ -65,8 +65,8 @@
       height: 60px;    
       }
       .li-footer-first span{
-        font-size: 25px;
+        font-size: 18px;
         font-weight: bold;
-        margin-left: 15px;
+        margin: 0px 15px;
       }
   </style>
