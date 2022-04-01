@@ -7,7 +7,7 @@
 
     @foreach ($fumetti as $fumetto )
             <div class="box-img">
-                <img src="{{$fumetto['thumb']}}" :alt="{{$fumetto['thumb']}}"">
+                <img src="{{$fumetto['thumb']}}" alt="{{$fumetto['thumb']}}">
                 <h3>{{$fumetto['series']}}</h3> 
             </div>
         
